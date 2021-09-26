@@ -12,6 +12,13 @@ public class Main {
         System.out.println("(!b&&c) || (a||!c) : " + ((!b&&c) || (a||!c)));
         System.out.println("(a&&c) && (b||c) : " + ((a&&c) && (b||c)));
 
+        int x = 12;
+        int y = 56;
+        int z = 4;
+
+        System.out.println("((x <= y) || (a&&b)) : " + ((x <= y) || (a&&b)));
+        System.out.println("(x < z) && (a||!b) : " + ((x < z) && (a||!b)));
+        System.out.println("(z<=y) || (a&&!c)" + ((z<=y) || (a&&!c)));
 
 
 
